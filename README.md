@@ -53,7 +53,7 @@ return (
 
 ## Usage with plain HTML
 ```html
-<script src="https://cdn.jsdelivr.com/gh/n3ps/paste-from-excel/dist/paste-from-excel.min.js">
+<script src="https://cdn.jsdelivr.net/gh/n3ps/paste-from-excel/dist/paste-from-excel.min.js">
 
 <table id="my-table">
   <tr>
