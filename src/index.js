@@ -55,5 +55,5 @@ export default function parseCliboard (e, options) {
 }
 
 function parseData (data) {
-  return data.split(/\r\n|\n|\r/).map(row => row.split('\t'))
+  return data.trim().split(/\r\n|\n|\r/).map(row => row.split('\t'))
 }
