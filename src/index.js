@@ -22,7 +22,7 @@ export default function parseCliboard (e, options) {
   for (const row of data) {
     for (const value of row) {
       currentInput.contentEditable === 'true'
-        ? currentInput.innerText = value
+        ? currentInput.textContent = value
         : currentInput.value = value
 
       const inputEvent = new Event('input', { bubbles: true })
