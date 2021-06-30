@@ -2,9 +2,11 @@
   "name": "paste-from-excel",
   "version": "1.0.2",
   "description": "Utility to allow pasting data intact from Excel into an HTML table",
-  "main": "src/index.js",
+  "module": "src/index.js",
+  "type": "module",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [
     "paste",
@@ -21,5 +23,11 @@
   "devDependencies": {
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "jest": "^27.0.6"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }
