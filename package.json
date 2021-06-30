@@ -1,6 +1,6 @@
 {
   "name": "paste-from-excel",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Utility to allow pasting data intact from Excel into an HTML table",
   "exports": "./src/index.js",
   "type": "module",
